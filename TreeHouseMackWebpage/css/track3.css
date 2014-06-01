@@ -1,0 +1,39 @@
+@import 'more-styles.css';
+
+/** {
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+*/
+
+body {
+    background-color: lightsteelblue;
+    padding: 40px;
+}
+
+h2 {
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted;
+}
+
+ul {
+    color: white;
+    background-color: steelblue;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: #e14607;
+}
+
+p {
+    color: white;
+    padding: 10px;
+    background-color: blue;
+}
+
+h1 span {
+    color: darkslateblue;
+}
