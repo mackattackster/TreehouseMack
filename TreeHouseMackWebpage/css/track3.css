@@ -37,3 +37,28 @@ p {
 h1 span {
     color: darkslateblue;
 }
+
+li:nth-child(2n+1) {
+    color: black;
+}
+
+div:nth-of-type(2) {
+    background-color: blue;
+}
+
+/*more specificity using root*/
+:root {
+    color: lightblue;
+}
+
+:target {
+    color: red;
+}
+
+:empty {
+    color: red;
+}
+/*([id=s2])*/
+div:not(:empty) {
+    background-color: blue;
+}
