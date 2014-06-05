@@ -62,3 +62,73 @@ div:nth-of-type(2) {
 div:not(:empty) {
     background-color: blue;
 }
+/*Could added to text fields*/
+input[type="text"]:enabled {
+    background: yellow;
+}
+
+:disabled {
+    background: blue;
+}
+/*Check state of radio buttons*/
+input[type="radio"]:checked  + label{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*pseudo classes - target elements that state*/
+/*pseudo elements - parts of document that may not exsist as elements*/
+.intro::first-line {
+    color: royalblue;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.intro::first-letter {
+    float: left;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    font-size: 100px;
+    line-height: 1;
+}
+
+/*Generated content - adding to html using css before and after*/
+/*must have content in here*/
+/*not really inserted before or after but a part of the child?/element*/
+.phone::before {
+    content: "\2706";
+}
+.phone::after {
+    content: "\2706";
+}
+.dload::before {
+    content: url(../img/pdf.png);
+    margin: 0 8px;
+}
+.dload::after {
+    content: attr(href);
+    padding-left: 10px;
+    font-size: .75em;
+    color: tomato;
+}
+.box::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 15px 15px 0 15px;
+}
+.box::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 15px 15px 0 15px;
+}
+
+/*Absolute Length Units - useful when output medium is known
+    represent a physical measurement and are fixed in relation
+    to each other. COnsist of physical units (in, cm, pt, pc,
+    and px unit)*/
