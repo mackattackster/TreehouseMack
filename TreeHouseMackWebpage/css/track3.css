@@ -148,6 +148,7 @@ div {
     background-color: lightblue;
 }
 
+
 /*Font Properties
     font-family -
     serif - finishing strokes (times and georgia)
@@ -174,6 +175,19 @@ div {
 /*Text Styles
     text-shadow: 0px 0px 0px #000 (right down blue color)
     text-overflow: need overflow property as hidden, text-overflow: clip (default value, need visible hint to show clip texted, shows elipses)
-    word-wrap: allows lines to break and continue to next line with value breakword(best for links)
-            
+    word-wrap: allows lines to break and continue to next line with value breakword(best for links)      
+*/
+
+/*List Styles
+    list-style-type: square (changes marker)
+    list-style-position: default is outside, inside markers are inside content flow
+    list-style-image: url('value') markers set to custom img - 
+    list-style: type position and image
+*/
+
+/******************************************/
+/*              BOX MODEL                 
+    Block Elements-
+    Inline Elements- only take as much room as it needs (anchors, 
+    Padding, border, margin - Content(center) padding (surrounds content) border (outline to box) margin (exists outside of the box)
 */
