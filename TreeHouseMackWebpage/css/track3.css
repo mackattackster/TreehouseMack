@@ -137,3 +137,43 @@ input[type="radio"]:checked  + label{
 /*auto makes size equal
     inherit sets values based off parent
     */
+
+/*Color Values w3.org color names
+    rgb(0,0,0)
+    rgba(0,0,0,0) 4th channel changes the opacity
+    hsl(0,0,0) hue(angle in color wheel) saturation(grey to white) lightness(50% normal)
+    hsla(0,0,0,0) just like rgba with alpha that changes opacity
+    */
+div {
+    background-color: lightblue;
+}
+
+/*Font Properties
+    font-family -
+    serif - finishing strokes (times and georgia)
+    sans - no strongs (verdana, helvetica)
+    mono - same space (code examples)
+    font-stacks - stack of fonts that help with fallback for font
+    font-weight - thick or thin (normal/bold) (lighter/bolder)
+    font-size - size of font (small/medium/large) (larger/smaller) (length units)
+    font-style - (normal, italic, oblique)
+    font-variant - text should be in small caps font (lower case is smaller upper case)
+    */
+
+/*Text Properties
+    line-height: sets height of an entire line of text (unitless values best)
+    leading - vertical space between text
+    text-align: horizontal alignment of text (left-left of parent, right - right of parent, center, justify (similar to book/magazine), left default
+    text-decoration: none default value
+    text-indent: indents the 1st line
+    text-transform: change case of text (all upper all lower, all capitalize
+    white-space: how whitespace is displayed (default-normal (all whitespace is ignored), nowrap - single line, pre - renders just like markup, pre-line - ignores spaces, but does linebreaks
+    pre-wrap: lines broken only at line breaks, otherwise wrap)
+*/
+
+/*Text Styles
+    text-shadow: 0px 0px 0px #000 (right down blue color)
+    text-overflow: need overflow property as hidden, text-overflow: clip (default value, need visible hint to show clip texted, shows elipses)
+    word-wrap: allows lines to break and continue to next line with value breakword(best for links)
+            
+*/
